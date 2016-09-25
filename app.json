@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },"tabBar":{
+    "color":"#dddddd",
+    "selectdColor":"#3cc51f",
+    "borderStyle":"black",
+    "backgroundColor":"#ffffff"
+  ,"list":[
+    {
+      "pagePath":"pages/index/index",
+      "iconPath":"image/wechat.png",
+      "selectedIconPath":"image/wechatHL.png",
+      "text":"主页"
+      },{
+    "pagePath":"pages/logs/logs",
+    "iconPath":"image/wechat.png",
+    "selectedIconPath":"image/wechatHL.png",
+    "text":"日志"
+  }]
+}
+}
