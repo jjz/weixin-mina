@@ -1,0 +1,14 @@
+.container{
+    margin-bottom: 20;
+    display:block;
+}
+.flex-row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-view-item{
+    width: 100%;
+    
+}

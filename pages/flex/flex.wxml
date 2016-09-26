@@ -1,0 +1,16 @@
+
+<view class="page__hd">
+    <view class="flex-row">
+        <text >r1</text>
+        <text>r2</text>
+        <view class="flex-view-item">r-view</view>
+
+    </view>
+
+    <view class="flex-column" >
+        <text class="flex-view-item">c1</text>
+        <text>c2</text>
+        <view class="flex-view-item">c-view</view>
+        
+    </view>
+</view>
