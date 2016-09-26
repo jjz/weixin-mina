@@ -7,9 +7,14 @@ Page({
     userInfo: {}
   },
   //事件处理函数
-  bindViewTap: function() {
+  // bindViewTap: function() {
+  //   wx.navigateTo({
+  //     url: '../logs/logs'
+  //   })
+  // },
+  onFlexClick:function(){
     wx.navigateTo({
-      url: '../logs/logs'
+      url:'../flex/flex'
     })
   },
   onLoad: function () {
