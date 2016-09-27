@@ -4,11 +4,27 @@
 }
 .flex-row{
     flex-direction: row;
+    background: #8e569e;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
 }
 .flex-column{
     flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 20rpx;
+    background: #8e569e;
 }
 .flex-view-item{
     width: 100%;
+    color: snow;
+    background: #e4803a;
+    margin: 10rpx;
     
+}
+.text{
+    width:20rpx;
+    height:15rpx;
+    color: snow;
+    background: #e4803a;
+    margin: 10rpx;
 }

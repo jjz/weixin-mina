@@ -1,16 +1,16 @@
 
 <view >
     <view class="flex-row">
-        <text class="text">r1</text>
-        <text class="text">r2</text>
-        <view class="flex-view-item">r-view</view>
+        <text class="text">text-1</text>
+        <text class="text">text-2</text>
+        <view class="flex-view-item">view-1</view>
 
     </view>
 
     <view class="flex-column" >
-        <text class="text">c1</text>
-        <text class="text">c2</text>
-        <view class="flex-view-item">c-view</view>
+        <text class="text">text-2</text>
+        <text class="text">text-3</text>
+        <view class="flex-view-item">view-2</view>
         
     </view>
 </view>
