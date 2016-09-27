@@ -18,7 +18,9 @@
     
     color: snow;
     background: #e4803a;
-    padding: 5rpx;
+    padding: 8rpx;
+    margin-right: 10rpx;
+    margin-top: 5rpx;
     
     
 }

@@ -1,17 +1,17 @@
 
 <view >
-    <view class="flex-row" style="display: block;">
-        <text class="text">text-1</text>
-        <text class="text">text-2</text>
-        <view class="flex-view-item">view-1</view>
+    <view class="flex-row" style="display: flex;">
+        <view class="flex-view-item">1</view>
+        <view class="flex-view-item">2</view>
+        <view class="flex-view-item">3</view>
 
     </view>
 
    
-    <view class="flex-column" >
-        <text class="text">text-2</text>
-        <text class="text">text-3</text>
-        <view class="flex-view-item">view-2</view>
+    <view class="flex-column" style="display:flex" >
+        <view class="flex-view-item">c1</view>
+        <view class="flex-view-item">c2</view>
+        <view class="flex-view-item">c3</view>
         
     </view>
 </view>
