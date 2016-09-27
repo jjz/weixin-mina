@@ -16,16 +16,16 @@
     background: #8e569e;
 }
 .flex-view-item{
-    /*width: 120rpx;*/
+    width: 120rpx;
     color: snow;
     background: #e4803a;
-    /*margin: 10rpx;*/
+    margin: 5rpx;
     
     
 }
 .text{
-    /*width:20rpx;*/
+
     color: snow;
     background: #e4803a;
-    /*margin: 10rpx;*/
+    margin: 8rpx;
 }
