@@ -3,7 +3,7 @@
     display:block;
 }
 .flex-row{
-    flex-direction: row;
+    
     background: #8e569e;
     
    

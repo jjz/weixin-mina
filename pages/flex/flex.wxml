@@ -1,6 +1,6 @@
 
 <view >
-    <view class="flex-row" style="display: flex;">
+    <view class="flex-row" style="display: flex;flex-direction: row;">
         <view class="flex-view-item">1</view>
         <view class="flex-view-item">2</view>
         <view class="flex-view-item">3</view>
