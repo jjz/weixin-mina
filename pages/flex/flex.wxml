@@ -1,15 +1,15 @@
 
-<view class="page__hd">
+<view >
     <view class="flex-row">
-        <text >r1</text>
-        <text>r2</text>
+        <text class="text">r1</text>
+        <text class="text">r2</text>
         <view class="flex-view-item">r-view</view>
 
     </view>
 
     <view class="flex-column" >
-        <text class="flex-view-item">c1</text>
-        <text>c2</text>
+        <text class="text">c1</text>
+        <text class="text">c2</text>
         <view class="flex-view-item">c-view</view>
         
     </view>

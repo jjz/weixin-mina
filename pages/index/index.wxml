@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view  bindtap="bindViewTap" >
+  <view >
    <button type="default" bindtap="onFlexClick">flex</button>
   </view>
   <view class="usermotto">
