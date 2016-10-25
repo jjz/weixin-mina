@@ -19,7 +19,12 @@ Page( {
   },
   onIconClick: function() {
     wx.navigateTo( {
-      url:'../icon/icon'
+      url: '../icon/icon'
+    })
+  },
+  onTextClick: function() {
+    wx.navigateTo( {
+      url: "../text/text"
     })
   },
   onLoad: function() {

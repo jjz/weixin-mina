@@ -1,36 +1,42 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/flex/flex",
-    "pages/icon/icon"
+    "pages/icon/icon",
+    "pages/text/text"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
-  },"tabBar":{
-    "color":"#dddddd",
-    "selectdColor":"#3cc51f",
-    "borderStyle":"black",
-    "backgroundColor":"#ffffff"
-  ,"list":[
-    {
-      "pagePath":"pages/index/index",
-      "iconPath":"image/wechat.png",
-      "selectedIconPath":"image/wechatHL.png",
-      "text":"主页"
-      },{
-    "pagePath":"pages/logs/logs",
-    "iconPath":"image/wechat.png",
-    "selectedIconPath":"image/wechatHL.png",
-    "text":"日志"
-  }]
-},"networkTimeout": {
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectdColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "image/wechat.png",
+        "selectedIconPath": "image/wechatHL.png",
+        "text": "日志"
+      }
+    ]
+  },
+  "networkTimeout": {
     "request": 10000,
     "connectSocket": 10000,
     "uploadFile": 10000,
     "downloadFile": 10000
-  },"debug": true
+  },
+  "debug": true
 }
