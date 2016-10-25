@@ -1,5 +1,8 @@
-<view>
+<view class="contaner">
     <block wx:for="{{icons}}">
-        <icon type="{{item.type}}" />
+        <view>
+            <icon type="{{item.type}}"
+             class="icon"/> <text class="icon-text">{{item.text}}</text>
+        </view>
     </block>
 <view>

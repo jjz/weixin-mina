@@ -1,8 +1,17 @@
 
 Page( {
     data: {
-        icons:[
-            {"text":'成功',"type":"success"}
+        icons: [
+            { "text": '成功', "type": "success" },
+            { "text": '成功', "type": "success_no_circle" },
+            { "text": '提示', "type": "info" },
+            { "text": '警告', "type": "warn" },
+            { "text": '等待中', "type": "waiting" },
+            { "text": '取消', "type": "cancel" },
+            { "text": '下载', "type": "download" },
+            { "text": '搜索', "type": "search" },
+            { "text": '清除', "type": "clear" },
+
 
         ]
     },
