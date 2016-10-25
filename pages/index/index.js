@@ -27,6 +27,11 @@ Page( {
       url: "../text/text"
     })
   },
+  onProgressClick: function() {
+    wx.navigateTo( {
+      url: "../progress/progress"
+    })
+  },
   onLoad: function() {
     console.log( 'onLoad' )
     var that = this

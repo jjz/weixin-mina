@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/flex/flex",
     "pages/icon/icon",
-    "pages/text/text"
+    "pages/text/text",
+    "pages/progress/progress"
   ],
   "window": {
     "backgroundTextStyle": "light",
