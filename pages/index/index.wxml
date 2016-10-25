@@ -1,8 +1,10 @@
 <!--index.wxml-->
 <view class="container">
   <view >
-   <button type="default" bindtap="onFlexClick">flex</button>
+    <button type="default" bindtap="onFlexClick">flex</button>
+    <button type="default" bindtap="onIconClick">icon</button>
   </view>
+
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
