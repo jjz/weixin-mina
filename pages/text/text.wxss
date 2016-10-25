@@ -5,3 +5,11 @@
     justify-content: center;
 
 }
+.bold-text{
+    /*font-weight: bolder ;*/
+    /*color: blue;*/
+    text-align: justify;
+    font-size: 18rpx;
+    width: 100%;
+
+}
