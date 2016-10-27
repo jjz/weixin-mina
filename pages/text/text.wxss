@@ -8,8 +8,8 @@
 .bold-text{
     /*font-weight: bolder ;*/
     /*color: blue;*/
-    text-align: justify;
+    /*text-align: justify;
     font-size: 18rpx;
-    width: 100%;
+    width: 100%;*/
 
 }

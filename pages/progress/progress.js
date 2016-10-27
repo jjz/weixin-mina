@@ -5,7 +5,7 @@ Page( {
   },
   onLoad: function( options ) {
     // 页面初始化 options为页面跳转所带来的参数
-    this._setPercent();
+    this._updatePercent();
 
   },
   onReady: function() {
@@ -20,7 +20,7 @@ Page( {
   onUnload: function() {
     // 页面关闭
   },
-  _setPercent: function() {
+  _updatePercent: function() {
     let _self = this;
     setTimeout( function() {
       let percent = _self.data.percent;
@@ -29,7 +29,7 @@ Page( {
         _self.setData( {
           percent: percent
         })
-        _self._setPercent()
+        _self._updatePercent()
       }
     }, 1000 );
 

@@ -1,7 +1,7 @@
 <view class="container">
     <block wx:for="{{icons}}">
         <view>
-            <icon type="{{item.type}}" class="icon" color="blue" size="54" >
+            <icon type="{{item.type}}" class="icon" color="blue" size="36" >
             </icon> 
             <text class="icon-text">{{item.text}}</text>
         </view>
