@@ -1,3 +1,8 @@
 <view class="container">
-    <text class="bold-text">{{text}}</text>
+    <text>文本</text>
+   
+    <text class="text-bold">加粗</text>
+    <text class="text-right">居中</text>
+     <text class="text-size">大小</text>
+    
 </view>

@@ -2,14 +2,22 @@
     margin: 10rpx 10rpx auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+    text-indent: 15rpx;
 
 }
-.bold-text{
-    /*font-weight: bolder ;*/
-    /*color: blue;*/
-    /*text-align: justify;
-    font-size: 18rpx;
-    width: 100%;*/
+
+.text-size{
+    font-size: 65rpx;
+    
+}
+.text-bold{
+    font-weight: bold;
+    
+}
+.text-right{
+    text-align: right;
+    width:100%;
+    
 
 }
