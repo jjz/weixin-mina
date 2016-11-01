@@ -1,8 +1,6 @@
 <view class="container">
     <text>文本</text>
-   
     <text class="text-bold">加粗</text>
-    <text class="text-right">居中</text>
-     <text class="text-size">大小</text>
-    
+    <text class="text-right">靠右</text>
+    <text class="text-size">大小</text>
 </view>

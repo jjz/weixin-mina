@@ -2,22 +2,15 @@
     margin: 10rpx 10rpx auto;
     display: flex;
     flex-direction: column;
-    
     text-indent: 15rpx;
-
 }
-
 .text-size{
     font-size: 65rpx;
-    
 }
 .text-bold{
     font-weight: bold;
-    
 }
 .text-right{
     text-align: right;
     width:100%;
-    
-
 }
