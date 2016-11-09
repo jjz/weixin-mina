@@ -1,9 +1,10 @@
+<import src ="../../components/calculatorButton/calculatorButton.wxml"/>
 <View class="box-container">
     <View class="input-zone-view">
         <Text class="input-zone">{{text}}</Text>
     </View>
     <View>
-        <Text>C</Text>
+        <template is="calculator" />
         <icon type="cancel" />
         <Text>%</Text>
         <Text>÷</Text>
