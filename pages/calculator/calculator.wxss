@@ -1,0 +1,20 @@
+.box-container{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.input-zone-view{
+    height: 120px;
+    width: 100%;
+    background-color: #1d2d37;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.input-zone{
+    margin: 20px 10px 0px 10px;
+    color: #2ca8d8;
+    font-size: 38pt;
+}

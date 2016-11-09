@@ -1,0 +1,36 @@
+<View class="box-container">
+    <View class="input-zone-view">
+        <Text class="input-zone">{{text}}</Text>
+    </View>
+    <View>
+        <Text>C</Text>
+        <icon type="cancel" />
+        <Text>%</Text>
+        <Text>÷</Text>
+    </View>
+    <View>
+        <Text>7</Text>
+        <Text>8</Text>
+        <Text>9</Text>
+        <Text>×</Text>
+    </View>
+    
+    <View>
+        <Text>4</Text>
+        <Text>5</Text>
+        <Text>6</Text>
+        <Text>-</Text>
+    </View>
+    <View>
+        <Text>1</Text>
+        <Text>2</Text>
+        <Text>3</Text>
+        <Text>+</Text>
+    </View>
+    <View>
+        <Text>.</Text>
+        <Text>0</Text>
+        <Text>=</Text>
+        <Text></Text>
+    </View>
+</View>
