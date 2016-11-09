@@ -30,7 +30,7 @@
     display: flex;
     background-color:#2ca8d8;
     flex:1;
-    height: 100px;
+    height: 90px;
     align-items: center;
     justify-content: center;
 }
@@ -38,7 +38,7 @@
      display: flex;
      background-color: #f2f4f3;
      flex:1;
-     height: 100px;
+     height: 90px;
      align-items: center;
      justify-content: center;
 }
