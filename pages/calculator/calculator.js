@@ -1,6 +1,7 @@
+
 Page({
     data:{
-        text:0
+        text:"0."
     }
 
 })

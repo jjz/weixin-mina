@@ -1,3 +1,3 @@
 <template name="calculator">
-    <Text>1</Text>
+    <Text>{{text}}</Text>
 </template>
