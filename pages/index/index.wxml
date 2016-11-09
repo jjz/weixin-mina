@@ -5,6 +5,7 @@
     <button type="default" bindtap="onIconClick">icon</button>
     <button type="default" bindtap="onTextClick">text</button>
     <button type="default" bindtap="onProgressClick">progress</button>
+    <button type="default" bindtap="onCalculator">Calculator</button>
   </view>
 
   <view class="usermotto">

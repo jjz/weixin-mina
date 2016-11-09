@@ -5,7 +5,8 @@
     "pages/flex/flex",
     "pages/icon/icon",
     "pages/text/text",
-    "pages/progress/progress"
+    "pages/progress/progress",
+    "pages/calculator/calculator"
   ],
   "window": {
     "backgroundTextStyle": "light",

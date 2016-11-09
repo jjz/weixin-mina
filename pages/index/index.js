@@ -1,7 +1,7 @@
 //index.js
 //获取应用实例
 var app = getApp()
-Page( {
+Page({
   data: {
     motto: 'Hello World',
     userInfo: {}
@@ -12,33 +12,38 @@ Page( {
   //     url: '../logs/logs'
   //   })
   // },
-  onFlexClick: function() {
-    wx.navigateTo( {
+  onFlexClick: function () {
+    wx.navigateTo({
       url: '../flex/flex'
     })
   },
-  onIconClick: function() {
-    wx.navigateTo( {
+  onIconClick: function () {
+    wx.navigateTo({
       url: '../icon/icon'
     })
   },
-  onTextClick: function() {
-    wx.navigateTo( {
+  onTextClick: function () {
+    wx.navigateTo({
       url: "../text/text"
     })
   },
-  onProgressClick: function() {
-    wx.navigateTo( {
+  onProgressClick: function () {
+    wx.navigateTo({
       url: "../progress/progress"
     })
   },
-  onLoad: function() {
-    console.log( 'onLoad' )
+  onCalculator: function () {
+    wx.navigateTo({
+      url: "../calculator/calculator"
+    })
+  },
+  onLoad: function () {
+    console.log('onLoad')
     var that = this
     //调用应用实例的方法获取全局数据
-    app.getUserInfo( function( userInfo ) {
+    app.getUserInfo(function (userInfo) {
       //更新数据
-      that.setData( {
+      that.setData({
         userInfo: userInfo
       })
     })
