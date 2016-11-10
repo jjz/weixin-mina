@@ -1,4 +1,4 @@
-<import src ="../../components/calculatorButton/calculatorButton.wxml"/>
+
 <View class="box-container">
     <View class="input-zone-view">
         <Text class="input-zone">{{text}}</Text>
