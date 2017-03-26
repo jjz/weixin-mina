@@ -6,4 +6,4 @@
             <text class="icon-text">{{item.text}}</text>
         </view>
     </block>
-<view>
+</view>
