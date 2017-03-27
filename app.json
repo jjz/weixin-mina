@@ -6,7 +6,8 @@
     "pages/icon/icon",
     "pages/text/text",
     "pages/progress/progress",
-    "pages/calculator/calculator"
+    "pages/calculator/calculator",
+    "pages/data/data"
   ],
   "window": {
     "backgroundTextStyle": "light",

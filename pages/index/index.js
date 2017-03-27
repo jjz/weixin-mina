@@ -37,6 +37,11 @@ Page({
       url: "../calculator/calculator"
     })
   },
+  onDataClick:function(){
+    wx.navigateTo({
+      url: '../data/data',
+    })
+  },
   onLoad: function () {
     console.log('onLoad')
     var that = this
@@ -47,5 +52,24 @@ Page({
         userInfo: userInfo
       })
     })
-  }
+  },onReady:function(){
+    // 页面渲染完成
+  },
+  onShow:function(){
+    // 页面显示
+  },
+  onHide:function(){
+    // 页面隐藏
+  },
+  onUnload:function(){
+    // 页面关闭
+  },
+  onPullDownRefresh: function() {
+  
+  },onReachBottom: function() {
+    // Do something when page reach bottom.
+  },
+  onShareAppMessage: function () {
+   // return custom share data when user share.
+  },
 })
