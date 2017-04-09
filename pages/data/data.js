@@ -1,6 +1,6 @@
 Page({
   data:{
-    String1
+    title:'this is title'
   },
   onLoad:function(options){
     // 生命周期函数--监听页面加载
